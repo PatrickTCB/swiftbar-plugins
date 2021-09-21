@@ -6,7 +6,7 @@ if application "Spotify" is running then
 			set albumText to my albumInfo()
 			return trackText & " - " & artistText & " | symbolize=true\n---\nAlbum: " & albumText
 		else
-			return ":pause: | symbolize=true\n---\nNoting playing on Spotify"
+			return ":pause: | symbolize=true\n---\nNothing playing on Spotify"
 		end if
 	end tell
 else
