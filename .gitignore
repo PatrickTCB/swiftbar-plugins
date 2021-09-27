@@ -28,5 +28,5 @@ Temporary Items
 
 # Private plugin directory
 private/*
-
+!private/.gitkeep
 plugin-scripts/private-*.sh
