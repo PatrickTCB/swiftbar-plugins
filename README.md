@@ -10,4 +10,4 @@ I created an example file `env.vars.example` which you can use as a template for
 ## Private Plugins
 Some of my plugins check local only services on my network and are not interesting for anyone else. Those are stored within my "private" folder. If you clone this repo, you can use that folder in the exact same way. I'm never going to push anything into that folder. 
 
-A `.sh` file for running these scripts should be something like `private.SCRIPTNAME.10s.sh`
+A `.sh` file for running these scripts should be something like `private-SCRIPTNAME.10s.sh`
