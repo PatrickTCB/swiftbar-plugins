@@ -15,10 +15,10 @@ def plexMusicInfo(el):
     return trackInfo
 
 def plexMovieInfo(el):
-    if el.attrib['librarySectionTitle'] == "YouTube":
-        trackInfo = ":video.fill: " + el.attrib['title'][11:] + " | symbolize=true"
+    if el.attrib['librarySectionTitle'] == "Movies":
+        trackInfo = ":film.fill: " + el.attrib['title'][11:] + " | symbolize=true"
     else:
-        trackInfo = ":film.fill:  " + el.attrib['title'] + " | symbolize=true"
+        trackInfo = ":video.fill:  " + el.attrib['title'] + " | symbolize=true"
     return trackInfo
 
 def plexTVInfo(el):
