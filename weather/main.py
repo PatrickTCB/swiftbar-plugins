@@ -53,7 +53,7 @@ def render_wx(location, api_key, units, main):
   weather_data = get_wx(location, api_key, units)
   emoji_dict = {
   200 : ":cloud.sun.bolt.fill:",  201 : ":cloud.bolt.rain.fill:",  202 : ":cloud.bolt.rain.fill:",  210 : ":cloud.bolt.rain.fill:",  211 : ":cloud.bolt.rain.fill:",  212 : ":cloud.bolt.rain.fill:",  221 : ":cloud.bolt.rain.fill:",  230 : ":cloud.bolt.rain.fill:",  231 : ":cloud.bolt.rain.fill:",  232 : ":cloud.bolt.rain.fill:",
-  300 : "cloud.sun.rain.fill",  301 : ":cloud.drizzle.fill:",  302 : ":cloud.drizzle.fill:",  310 : ":cloud.drizzle.fill:",  311 : ":cloud.drizzle.fill:",  312 : ":cloud.drizzle.fill:",  313 : ":cloud.drizzle.fill:",  314 : ":cloud.drizzle.fill:",  321 : ":cloud.drizzle.fill:",
+  300 : ":cloud.sun.rain.fill:",  301 : ":cloud.drizzle.fill:",  302 : ":cloud.drizzle.fill:",  310 : ":cloud.drizzle.fill:",  311 : ":cloud.drizzle.fill:",  312 : ":cloud.drizzle.fill:",  313 : ":cloud.drizzle.fill:",  314 : ":cloud.drizzle.fill:",  321 : ":cloud.drizzle.fill:",
   500 : ":cloud.sun.rain.fill:",  501 : ":cloud.rain.fill:",  502 : ":cloud.heavyrain.fill:",  503 : ":cloud.heavyrain.fill:",  504 : ":cloud.heavyrain.fill:",  511 : ":cloud.hail.fill:",  520 : ":cloud.heavyrain.fill:",  521 : ":cloud.heavyrain.fill:",  522 : ":cloud.heavyrain.fill:",  531 : ":cloud.heavyrain.fill:",
   600 : ":snow:",  601 : ":snow:",  602 : ":wind.snow:",  611 : ":snow:",  612 : ":snow:",  613 : ":snow:",  615 : ":snow:",  616 : ":snow:",  620 : ":snow:",  621 : ":snow:",  622 : ":snow:",
   701 : ":cloud.fog.fill:",  711 : ":cloud.fog.fill:",  721 : ":cloud.fog.fill:",  731 : ":cloud.fog.fill:",  741 : ":cloud.fog.fill:",  751 : ":cloud.fog.fill:",  761 : ":cloud.fog.fill:",  762 : ":cloud.fog.fill:",  771 : ":wind:",
