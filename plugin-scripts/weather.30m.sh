@@ -14,4 +14,4 @@
 PLUGIN_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 SCRIPT_DIR="$(dirname "$PLUGIN_SCRIPT_DIR")"
 source $SCRIPT_DIR/private/env.vars
-python3 $SCRIPT_DIR/weather/main.py
+/opt/homebrew/bin/python3 $SCRIPT_DIR/weather/main.py
