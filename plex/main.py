@@ -46,9 +46,9 @@ def getPlexStatus(plextoken, plexhost):
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
     # Plex uses self signed certs, so they can't be verified.
-    # The context here is setup so that you can use a URL like the one below, though by default it uses http
-    # https://127.0.0.1:32400/status/sessions?X-Plex-Token=myCoolToken
-    plexAddress = 'http://' + plexhost + ':32400/status/sessions?X-Plex-Token=' + plextoken 
+    # The context here is setup so that you can use a URL like the one below
+    # http://127.0.0.1:32400/status/sessions?X-Plex-Token=myCoolToken
+    plexAddress = plexhost + '/status/sessions?X-Plex-Token=' + plextoken 
     plexXML = urllib.request.urlopen(plexAddress, context=ctx).read()
     return plexXML
 
@@ -83,7 +83,8 @@ def parseXML(rawXML, myuserid):
 
 #This is the function to be used with the script is called by itself
 if __name__ == '__main__':
-    plextoken = os.environ['SWIFTBAR_PLEXTOKEN'] 
+    plextoken = os.environ['SWIFTBAR_PLEXTOKEN']
+    # Plexhost should be something like 'http://127.0.0.1:32400' or 'https://plex.example.com'
     plexhost = os.environ['SWIFTBAR_PLEXHOST']
     myuserid = "1"
     try:
