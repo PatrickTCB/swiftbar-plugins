@@ -16,7 +16,7 @@ def plexMusicInfo(el):
 
 def plexMovieInfo(el):
     if el.attrib['librarySectionTitle'] == "Movies":
-        trackInfo = ":film.fill: " + el.attrib['title'][11:] + " | symbolize=true"
+        trackInfo = ":film.fill: " + el.attrib['title'] + " | symbolize=true"
     else:
         trackInfo = ":video.fill:  " + el.attrib['title'] + " | symbolize=true"
     return trackInfo
