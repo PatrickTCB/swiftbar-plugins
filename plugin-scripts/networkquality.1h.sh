@@ -6,8 +6,6 @@
 # <bitbar.author.github>patricktcb</bitbar.author.github>
 # <bitbar.desc>Displays the network quality</bitbar.desc>
 # <bitbar.dependencies>python, bash</bitbar.dependencies>
-# <swiftbar.hideDisablePlugin>true</swiftbar.hideDisablePlugin>
-# <swiftbar.hideAbout>true</swiftbar.hideAbout>
 # <swiftbar.hideRunInTerminal>true</swiftbar.hideRunInTerminal>
 
 PLUGIN_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
