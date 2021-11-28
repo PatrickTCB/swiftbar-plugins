@@ -4,8 +4,7 @@
 # <bitbar.version>v1.1</bitbar.version>
 # <bitbar.author>Patrick Coffey</bitbar.author>
 # <bitbar.author.github>patricktcb</bitbar.author.github>
-# <bitbar.desc>Get the current weather</bitbar.desc>
-# <bitbar.image>https://res.cloudinary.com/cyberge/image/upload/v1550627901/icons/plex_878759_eey690.png</bitbar.image>
+# <bitbar.desc>Displays the network quality</bitbar.desc>
 # <bitbar.dependencies>python, bash</bitbar.dependencies>
 # <swiftbar.hideDisablePlugin>true</swiftbar.hideDisablePlugin>
 # <swiftbar.hideAbout>true</swiftbar.hideAbout>
