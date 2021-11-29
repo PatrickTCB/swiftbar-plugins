@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# <bitbar.title>Network Quality Weather</bitbar.title>
+# <bitbar.title>Network Quality</bitbar.title>
 # <bitbar.version>v1.1</bitbar.version>
 # <bitbar.author>Patrick Coffey</bitbar.author>
 # <bitbar.author.github>patricktcb</bitbar.author.github>
